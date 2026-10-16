@@ -1,0 +1,22 @@
+# ==============================================================================
+# 🛡️ AI IGNORE (.aiignore)
+# ==============================================================================
+# Cualquier ruta listada aquí será ignorada y NUNCA leída, indexada o modificada
+# por asistentes de Inteligencia Artificial (Claude, Cursor, Antigravity, Copilot, etc.)
+# ==============================================================================
+
+# 1. Información sensible y credenciales
+**/*credenciales*/**
+**/*passwords*/**
+**/*secrets*/**
+*.env
+*.pem
+*.key
+
+# 2. Carpetas de trabajo o clientes confidenciales (Descomenta y adapta según tu caso)
+# 10_PROJECTS/MiEmpresaConfidencial/**
+# !10_PROJECTS/MiEmpresaConfidencial/01_Inbox/
+# !10_PROJECTS/MiEmpresaConfidencial/01_Inbox/📥_Quick_Capture_Empresa.md
+
+# 3. Datos personales o financieros estrictamente privados
+# 20_AREAS/Finanzas/Datos_Bancarios/**
